@@ -133,7 +133,7 @@ export const Step3 = () => {
             <Divider />
           </div>
 
-          {message && <p style={{ backgroundColor: '#FC6C4C' }} className='text-white rounded-md w-6/12 mx-auto text-center m-0'>Select an option.</p>}
+          {message && <p style={{ backgroundColor: '#FC6C4C' }} className='text-white rounded-md sm:w-11/12 md:w-6/12 mx-auto text-center m-0'>Select an option.</p>}
 
           <div className='grid grid-cols-2 gap-4 pt-5 pb-10 w-full'>
             <button onClick={onBack} style={{ color: '#FC6C4C', border: '#FC6C4C solid 2px' }} className={`text-white p-2  rounded-md hover:opacity-90 col-start-1 justify-self-start ${page == 1 && 'invisible'}`}  >Go Back</button>

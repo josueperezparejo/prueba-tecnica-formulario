@@ -16,7 +16,7 @@ const App = () => {
           Please fill out the following form.</p>
       </div>
 
-      <div className='bg-white container mx-auto relative rounded-lg' style={{ width: '70%', height: '100%' }} >
+      <div className='bg-white shadow-xl container mx-auto relative rounded-lg' style={{ width: '70%', height: '100%' }} >
 
         {/* Steper */}
         {page < 5 &&

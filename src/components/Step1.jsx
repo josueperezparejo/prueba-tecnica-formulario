@@ -57,7 +57,7 @@ export const Step1 = () => {
             <Divider />
           </div>
 
-          {errors.fullname || errors.email || errors.phone || errors.portfolio ? <p style={{ backgroundColor: '#FC6C4C' }} className='text-white rounded-md w-6/12 mx-auto text-center m-0'>All fields are required.</p> : null}
+          {errors.fullname || errors.email || errors.phone || errors.portfolio ? <p style={{ backgroundColor: '#FC6C4C' }} className='text-white rounded-md sm:w-11/12 md:w-6/12 mx-auto text-center m-0'>All fields are required.</p> : null}
           <div className='grid grid-cols-2 gap-4 pt-5 pb-10 w-full'>
             <button onClick={() => dispatch(previousPage())} style={{ color: '#FC6C4C', border: '#FC6C4C solid 2px' }} className={`w-full rounded-lg p-2 ${page == 1 && 'invisible'}`}>Go Back</button>
             <button type='submit' style={{ background: '#FC6C4C' }} className={`text-white p-2 rounded-md hover:opacity-90 col-start-2 justify-self-end ${page == 4 && 'hidden'}`}  >Next Step</button>
