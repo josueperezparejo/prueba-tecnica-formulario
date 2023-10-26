@@ -1,0 +1,13 @@
+ .input {
+  border: 2px solid #D1D5DB;
+  padding: 7px;
+  margin-top: 6px;
+  border-radius: 0.5rem;
+ }
+
+ .input:focus {
+   border: 2px solid #FC6C4C;
+   /* Cambia "blue" al color que desees */
+   outline: none;
+   /* Esto quita el resplandor por defecto en algunos navegadores */
+ }
